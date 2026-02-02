@@ -1,0 +1,46 @@
+.logo img {
+    margin-top: 20px;
+    padding-left:550px ;
+    text-align: center;
+} 
+.search-box {
+   margin: 20px 0;
+   text-align: center;
+}
+.search-box input {
+    width: 300px;
+}
+.box {
+    background-color: rgb(88, 104, 109);
+    margin: 2px;
+    padding: 10px;   
+   height: 280px;
+   float: none;
+   display:inline-block ;
+   vertical-align: top;
+   width: 250px;
+   .center-area > div {
+    display: inline-block;
+}
+}
+.center-area {
+    
+    width: 100%;
+    display: flex;          /* Esnek kutu yapısını başlatır */
+    flex-direction: column; /* İçerikleri (logo, arama, kutular) alt alta dizer */
+    align-items: center;    /* Her şeyi yatayda tam MERKEZE çeker */
+    text-align: center;
+}
+.page {
+    width: 100%;
+    text-align: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.links {
+   display: flex;
+   justify-content: center;
+}
